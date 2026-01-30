@@ -14,5 +14,4 @@ const char* libinput_device_get_name(struct libinput_device *device) {
 void set_scroll_emulation(struct libinput_device *device) {
   libinput_device_config_middle_emulation_set_enabled(device, LIBINPUT_CONFIG_MIDDLE_EMULATION_ENABLED);
   libinput_device_config_scroll_set_method(device, LIBINPUT_CONFIG_SCROLL_ON_BUTTON_DOWN);
-  libinput_device_config_scroll_set_button(device, 273);
 }
